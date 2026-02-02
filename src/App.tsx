@@ -1,12 +1,12 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
 import './App.css'
 
-const VALENTINE_NAME = import.meta.env.VITE_VALENTINE_NAME || 'Beautiful'
+const VALENTINE_NAME = import.meta.env.VITE_VALENTINE_NAME || 'Amor (Daniela)'
 const LANGUAGE = import.meta.env.VITE_LANGUAGE || 'EN'
 
 const translations = {
   EN: {
-    willYouBeMyValentine: (name: string) => `${name}, will you be my Valentine?`,
+    willYouBeMyValentine: (name: string) => `${name}, Daniela will you be my Valentine?`,
     areYouSure: "Are you sure you want to say no? 🥺",
     prettyPlease: "Please? Pretty please? 💕",
     wontGiveUp: "I won't give up on you! 💖",
